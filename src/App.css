@@ -1,0 +1,64 @@
+.card {
+    padding:0em;
+    height: 150px;
+    border-radius: 15px;
+  
+  }
+  
+  .read-the-docs {
+    color: #888;
+  }
+  
+  /* styles.css */
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    margin-top: 0;
+    background-color: #c1432e; /* Deep Rusted Red */
+    /*color: #4b6777; /* Silver Head-dress */
+    padding: 15px 30px;
+    display: flex;
+  
+    height: 120px;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(44, 44, 44, 0.4); /* Black shadow */
+  }
+  .nav-link {
+    color: white;
+    font-size: 26px;
+    font-weight: 300;
+    font-weight: bolder;
+    /* Remove width: 100% to avoid stretching */
+    padding: 8px 12px; /* Optional: Add some padding for spacing */
+  }
+  
+  /* .navbar {
+    height: 200px; /* Adjust height */
+  /* background-image: url("http://127.0.0.1:8000/uploads/nav1.jpg") !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  } */
+  
+  .card {
+    transition: 0.4s ease;
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+    z-index: 1; /* Ensure the hovered card is on top */
+  }
+  
+  .n-hover {
+    transition: none;
+    transform: none;
+  }
+  
+  .n-hover:hover {
+    transform: none;
+  }
